@@ -10,8 +10,8 @@ class ProductController {
     if (option.search) {
       return this.producto.getOneById(option.search);
     } else {
-      //this.producto.getAll();
-      console.log("sin parametros");
+      this.producto.getAll();
+     
     }
   }
 }
